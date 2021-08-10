@@ -60,9 +60,9 @@ def run():
         
         if puntos_jugador >= 3 or puntos_maquina >= 3:
             if puntos_maquina > puntos_jugador:
-                print("Gano la pc!")
+                print("Gano la maquina, la proxima sera!!")
             else:
-                print("Ganaste vos guachita!")
+                print("Has ganado tu, FELICITACIONES!")
             
             print("Termino el juego")
             break
